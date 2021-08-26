@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background-image: url('../img/paisaje.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+

@@ -1,0 +1,16 @@
+#logoHenry {
+  margin-right: 20px;
+}
+
+.navbar{
+  background-color: rgba(131, 101, 101, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+.item{
+  color: #FFC300;
+}
+
+.item:hover{
+  text-decoration: none;
+}
