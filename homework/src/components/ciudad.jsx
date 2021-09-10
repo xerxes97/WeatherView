@@ -11,7 +11,7 @@ export default function CityInfo({city}){
                         <img src={"http://openweathermap.org/img/wn/"+city.img+"@2x.png"} alt="" />
                     </div>
                     <div className="info">
-                        <div className={styles.item}><p className={styles.itemP}>Temperature:</p> <p>{city.temp} ºC</p></div>
+                        <div className={styles.item}><p className={styles.itemP}>Temperature:</p> <p>{(city.temp-273).toFixed(1)} ºC</p></div>
                         <div className={styles.item}><p className={styles.itemP}>Weather:</p> <p>{city.weather}</p></div>
                         <div className={styles.item}><p className={styles.itemP}>Wind:</p> <p>{city.wind} km/h</p></div>
                         <div className={styles.item}><p className={styles.itemP}>Clouds:</p> <p>{city.clouds}</p></div>
